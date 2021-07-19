@@ -89,7 +89,7 @@
 
 
 
-  <meta name="keywords" content="Hexo个人博客,NexT美化优化,哈林摇,Mac Panel特效,Leaf,北宸,Java程序员,北京,旅行,摄像,Github Pages,搭建教程,demo,博客相册,文章排行榜,网站SEO" />
+  <meta name="keywords" content="母版" />
 
 
 
@@ -102,16 +102,16 @@
 
 
 
-<meta name="description" content="AV.initialize(&quot;HzU5gDhBUYHF8QTF8DmbGhjD-gzGzoHsz&quot;, &quot;wp1HNJ17SdpnE0wIFq99eTKH&quot;);    var time&#x3D;0   var title&#x3D;&quot;&quot;   var url&#x3D;&quot;&quot;   var query &#x3D; new AV.Query(&#39;Counter&#39;);   query.notEqualTo(&#39;id&#39;,0);   query.d">
+<meta name="description" content="使用一些工具代码">
 <meta property="og:type" content="website">
-<meta property="og:title" content="文章热度排行">
+<meta property="og:title" content="help">
 <meta property="og:url" content="https://gylq.gitee.io/top/index.html">
 <meta property="og:site_name" content="孤桜懶契">
-<meta property="og:description" content="AV.initialize(&quot;HzU5gDhBUYHF8QTF8DmbGhjD-gzGzoHsz&quot;, &quot;wp1HNJ17SdpnE0wIFq99eTKH&quot;);    var time&#x3D;0   var title&#x3D;&quot;&quot;   var url&#x3D;&quot;&quot;   var query &#x3D; new AV.Query(&#39;Counter&#39;);   query.notEqualTo(&#39;id&#39;,0);   query.d">
-<meta property="article:published_time" content="2020-07-15T16:00:00.000Z">
-<meta property="article:modified_time" content="2020-07-16T03:35:12.244Z">
+<meta property="og:description" content="使用一些工具代码">
+<meta property="article:published_time" content="2020-07-07T14:00:00.000Z">
+<meta property="article:modified_time" content="2021-03-03T05:45:06.861Z">
 <meta property="article:author" content="孤桜懶契">
-<meta property="article:tag" content="孤桜懶契 技术 知识">
+<meta property="article:tag" content="母版">
 <meta name="twitter:card" content="summary">
 
 
@@ -160,7 +160,7 @@
     })();
 </script>
 
-  <title>文章热度排行 | 孤桜懶契</title>
+  <title>help | 孤桜懶契</title>
   
 
 
@@ -191,7 +191,9 @@ var _hmt = _hmt || [];
       <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
   
 
-<meta name="generator" content="Hexo 4.2.1"></head>
+<meta name="generator" content="Hexo 4.2.1"><link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="/assets/js/DPlayer.min.js"></script></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
@@ -386,8 +388,12 @@ var _hmt = _hmt || [];
     <div class="post-block page">
       <header class="post-header">
 
-	<h2 class="post-title" itemprop="name headline">文章热度排行</h2>
+	<h2 class="post-title" itemprop="name headline">help</h2>
 
+
+	<div class="post-meta">
+		<div class="post-description">使用一些工具代码</div>
+	</div>
 
 
 </header>
@@ -398,31 +404,51 @@ var _hmt = _hmt || [];
       <div class="post-body">
         
         
-          <div id="top"></div>
-<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-<script>AV.initialize("HzU5gDhBUYHF8QTF8DmbGhjD-gzGzoHsz", "wp1HNJ17SdpnE0wIFq99eTKH");</script>
-<script type="text/javascript">
-  var time=0
-  var title=""
-  var url=""
-  var query = new AV.Query('Counter');
-  query.notEqualTo('id',0);
-  query.descending('time');
-  query.limit(1000);
-  query.find().then(function (todo) {
-    for (var i=0;i<1000;i++){
-      var result=todo[i].attributes;
-      time=result.time;
-      title=result.title;
-      url=result.url;
-      // var content="<a href='"+"https://gylq.gitee.io"+url+"'>"+title+"</a>"+"<br>"+"<font color='#fff'>"+"阅读次数："+time+"</font>"+"<br><br>";
-      var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://gylq.gitee.io"+url+"'>"+title+"</a>"+"</p>";
-      document.getElementById("top").innerHTML+=content
-    }
-  }, function (error) {
-    console.log("error");
-  });
-</script>
+          <h1 id="YAML格式"><a href="#YAML格式" class="headerlink" title="YAML格式"></a>YAML格式</h1><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">title: 母版</span><br><span class="line">author: 孤桜懶契</span><br><span class="line">avatar: &#39;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;honjun&#x2F;cdn@1.6&#x2F;img&#x2F;custom&#x2F;avatar.jpg&#39;</span><br><span class="line">authorLink: hojun.cn</span><br><span class="line">authorAbout: 一个好奇的人</span><br><span class="line">authorDesc: 一个好奇的人</span><br><span class="line">categories: md书写方式</span><br><span class="line">date: &#39;2020-7-7 22:0:0&#39;</span><br><span class="line">comments: true</span><br><span class="line">tags:</span><br><span class="line"></span><br><span class="line">  - 方式</span><br><span class="line">  - 学习</span><br><span class="line">    keywords: 母版</span><br><span class="line">    description: 使用一些工具代码</span><br><span class="line">    photos: </span><br><span class="line">    #password: gylq</span><br><span class="line">    abbrlink: 45886</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h1 id="文章加密说明"><a href="#文章加密说明" class="headerlink" title="文章加密说明"></a><a href="https://github.com/MikeCoder/hexo-blog-encrypt" target="_blank" rel="noopener">文章加密说明</a></h1><h1 id="视频插入"><a href="#视频插入" class="headerlink" title="视频插入"></a>视频插入</h1><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% dplayer &quot;url&#x3D; https:&#x2F;&#x2F;yiyi.55zuiday.com&#x2F;20171217&#x2F;rq4DLC2E&#x2F;800kb&#x2F;hls&#x2F;index.m3u8&quot;   &quot;loop&#x3D;yes&quot; &quot;theme&#x3D;#FADFA3&quot; &quot;autoplay&#x3D;yes&quot; &quot;token&#x3D;tokendemo&quot; &quot;danmaku.unlimited&#x3D;true&quot; %&#125;</span><br></pre></td></tr></table></figure></div>
+
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":" https://cdn77-vid.xvideos-cdn.com/Ccg2ugD0wCt55Rq_xNPj-Q==,1614761025/videos/mp4/a/6/4/xvideos.com_a6469d14da2d5470fbfc5873c4a44539.mp4?ui=MTIxLjc3LjIyMS44OS0vdmlkZW80ODY1MDU4My9tYWVzdHJhX2phcG9uZXM="}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+
+
+
+
+<div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":" https://video-hw.xvideos-cdn.com/videos/mp4/f/e/4/xvideos.com_fe479e185fe2f72430e21043ee8fe128.mp4?e=1614742904&ri=1024&rs=85&h=cbc44ef7886a2b96ef9e0d7ec8f94f65"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+<div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"autoplay":true,"theme":"#FADFA3","loop":true,"video":{"url":" https://cdn77-vid.xvideos-cdn.com/uGGkve0W1M8mVpJKLO05nQ==,1614743174/videos/mp4/d/f/0/xvideos.com_df081471c9a3c0b532fb6688f931b0b0.mp4?ui=MTIxLjc2LjE1LjE1Mi0vdmlkZW81NTY5ODU4OS9qYXBhbmVzZV9iaWdfbmE="}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
+
+
+<h1 id="音频插入"><a href="#音频插入" class="headerlink" title="音频插入"></a>音频插入</h1><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer &quot;夜间晨独&quot; &quot;孤桜懶契&quot; &quot;https:&#x2F;&#x2F;aod.cos.tx.xmcdn.com&#x2F;group83&#x2F;M0B&#x2F;76&#x2F;90&#x2F;wKg5I18AjH_BuAogABMURHU58-A586.m4a&quot;  &quot;https:&#x2F;&#x2F;imagev2.xmcdn.com&#x2F;group86&#x2F;M09&#x2F;CD&#x2F;5B&#x2F;wKg5IF7t-Bfy5WGpAAlHhP2jIig963.png!strip&#x3D;1&amp;quality&#x3D;7&amp;magick&#x3D;jpg&amp;op_type&#x3D;5&amp;upload_type&#x3D;cover&amp;name&#x3D;web_large&amp;device_type&#x3D;ios&quot;  %&#125;</span><br></pre></td></tr></table></figure></div>
+
+ 
+        <div id="aplayer-mkjAgjUo" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-mkjAgjUo"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "夜间晨独",
+              author: "孤桜懶契",
+              url: "https://aod.cos.tx.xmcdn.com/group83/M0B/76/90/wKg5I18AjH_BuAogABMURHU58-A586.m4a",
+              pic: "https://imagev2.xmcdn.com/group86/M09/CD/5B/wKg5IF7t-Bfy5WGpAAlHhP2jIig963.png!strip=1&quality=7&magick=jpg&op_type=5&upload_type=cover&name=web_large&device_type=ios",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<h1 id="卡片"><a href="#卡片" class="headerlink" title="卡片"></a>卡片</h1><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAIN"><figure class="iseeu highlight /plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;gylq.github.io&#x2F;2020&#x2F;07&#x2F;10&#x2F;我的青春恋爱物语果然有问题第三季&#x2F;&quot; class&#x3D;&quot;LinkCard&quot;&gt;我的青春恋爱物语果然有问题第三季&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p><a href="https://gylq.github.io/2020/07/10/我的青春恋爱物语果然有问题第三季/" target="_blank" rel="noopener" class="LinkCard">我的青春恋爱物语果然有问题第三季</a></p>
+
         
       </div>
       
@@ -471,8 +497,17 @@ var _hmt = _hmt || [];
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -951,6 +986,22 @@ var _hmt = _hmt || [];
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#YAML格式"><span class="nav-number">1.</span> <span class="nav-text">YAML格式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#文章加密说明"><span class="nav-number">2.</span> <span class="nav-text">文章加密说明</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#视频插入"><span class="nav-number">3.</span> <span class="nav-text">视频插入</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#音频插入"><span class="nav-number">4.</span> <span class="nav-text">音频插入</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#卡片"><span class="nav-number">5.</span> <span class="nav-text">卡片</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1871,7 +1922,7 @@ return(false);
   
     <script async type="text/javascript">
         var text = "Welcome To Leaface";
-        var date = '2021-07-18';
+        var date = '2021-07-19';
         console.log("%c " + text, "font-size:100px;color:white;border-radius:20px;height:200px; background:-webkit-linear-gradient(yellow,orange,red,green,blue,purple);text-shadow: 0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);");
         console.info('\n' + ' %c Leafae Site %c https://www.liaofuzhan.com ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
         console.info('\n' + ' %c Leafae QQ %c 793458585 ' + '\n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;');
@@ -1911,4 +1962,5 @@ return(false);
     <script src="https://player.lmih.cn/player/js/player.js" id="myhk" key="159368326389" m="1"></script>
  
 
-<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
+</body>
+</html>
